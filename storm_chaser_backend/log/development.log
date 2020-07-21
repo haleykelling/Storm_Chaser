@@ -376,3 +376,301 @@ SystemExit (exit):
 (byebug):1:in `weather_search'
 app/services/open_weather_service.rb:5:in `weather_search'
 app/controllers/weather_conditions_controller.rb:4:in `get_weather'
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:13:29 -0600
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 500 Internal Server Error in 137ms (ActiveRecord: 0.2ms | Allocations: 1274)
+
+
+  
+TypeError (no implicit conversion of Excon::Response into String):
+  
+app/services/open_weather_service.rb:4:in `weather_search'
+app/controllers/weather_conditions_controller.rb:4:in `get_weather'
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:14:50 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 119ms (Views: 2.5ms | ActiveRecord: 0.7ms | Allocations: 1760)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:14:56 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 130ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1602)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:16:01 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 500 Internal Server Error in 143893ms (ActiveRecord: 0.2ms | Allocations: 151278)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:18:24 -0600
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `get_weather'
+app/controllers/weather_conditions_controller.rb:6:in `get_weather'
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:18:25 -0600
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WeatherConditionsController#get_weather as */*
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 500 Internal Server Error in 5522ms (ActiveRecord: 0.0ms | Allocations: 324089)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `get_weather'
+app/controllers/weather_conditions_controller.rb:6:in `get_weather'
+Completed 500 Internal Server Error in 7636ms (ActiveRecord: 0.0ms | Allocations: 7374046)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `get_weather'
+app/controllers/weather_conditions_controller.rb:6:in `get_weather'
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:18:56 -0600
+  [1m[35m (6.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 125ms (Views: 0.9ms | ActiveRecord: 0.3ms | Allocations: 1737)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:19:57 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 121ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1602)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:24:59 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"47302", "weather_condition"=>{"zipcode"=>"47302"}}
+Completed 200 OK in 123ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1602)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:26:10 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"62016", "weather_condition"=>{"zipcode"=>"62016"}}
+Completed 200 OK in 144ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1602)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:34:55 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 185ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 1602)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:37:00 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 120ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1600)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:41:28 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 117ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1601)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:42:10 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 119ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1600)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:43:19 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 125ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1601)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:43:46 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 129ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1600)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:44:43 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 129ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1600)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:44:51 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 127ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1600)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:46:25 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 210ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1601)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:46:53 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 129ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1600)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:48:41 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 142ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1600)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:50:42 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 120ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1601)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:52:16 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 500 Internal Server Error in 33814ms (ActiveRecord: 0.4ms | Allocations: 47438)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `weather_search'
+app/services/open_weather_service.rb:5:in `weather_search'
+app/controllers/weather_conditions_controller.rb:4:in `get_weather'
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:53:28 -0600
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 143ms (Views: 7.3ms | ActiveRecord: 1.7ms | Allocations: 272096)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:53:52 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 147ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 283574)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:54:33 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 172ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 308102)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:54:50 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 173ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 332630)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:55:44 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 169ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 333400)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 14:57:07 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 176ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 332630)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 15:01:29 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 151ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 335700)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 15:02:40 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 145ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 332630)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 15:06:40 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 191ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 332994)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 15:09:48 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 154ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 333400)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 15:10:26 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 156ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 332630)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 15:11:11 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 150ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 332630)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 15:11:38 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 182ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 332630)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 15:12:12 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 151ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 332630)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 15:13:04 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 155ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 332630)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 15:19:22 -0600
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 167ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 332630)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 15:22:32 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 187ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 333115)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 15:22:39 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80021", "weather_condition"=>{"zipcode"=>"80021"}}
+Completed 200 OK in 157ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 333115)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 15:22:45 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"80863", "weather_condition"=>{"zipcode"=>"80863"}}
+Completed 200 OK in 153ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 332145)
+
+
+Started POST "/weather_conditions" for ::1 at 2020-07-21 15:23:19 -0600
+Processing by WeatherConditionsController#get_weather as */*
+  Parameters: {"zipcode"=>"62016", "weather_condition"=>{"zipcode"=>"62016"}}
+Completed 200 OK in 296ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 335516)
+
+
