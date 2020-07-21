@@ -8,6 +8,7 @@ export default class ZipCode extends React.Component {
     }
     
     handleSubmit = (event) => {
+        event.preventDefault()
         this.props.sendZipcode(this.state.zipcode)
     }
 
@@ -19,7 +20,7 @@ export default class ZipCode extends React.Component {
     
     render() {
         return(
-            <form class="enter-zipcode" onSubmit={this.handleSubmit}>
+            <form className="enter-zipcode" onSubmit={this.handleSubmit}>
                 <label>Enter your zipcode to see if a storm is coming your way!</label>
                 <input type="text" placeholder="Zipcode" value={this.state.zipcode} onChange={this.handleChange} />
                 <input type="submit" value="Submit" />

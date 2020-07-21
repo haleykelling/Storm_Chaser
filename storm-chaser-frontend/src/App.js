@@ -16,9 +16,11 @@ class App extends React.Component {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
-      }
+      },
+      body: JSON.stringify({zipcode: zipcode})
     })
       .then(response => response.json())
+      .then(console.log)
   } 
   
   render() {
