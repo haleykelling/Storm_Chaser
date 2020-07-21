@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
-import ZipCode from './Components/ZipCode'
+import ZipCode from './Components/ZipCode';
+import CurrentWeather from './Components/CurrentWeather';
+import Welcome from './Components/Welcome';
 
 const weatherUrl = 'http://localhost:3000/weather_conditions'
 
@@ -22,21 +24,28 @@ class App extends React.Component {
       .then(response => response.json())
       .then(result => {
         this.setState({
-          home: false,
-          weather: result
+          weather: result, 
+          home: false
         })
       })
   } 
+
+  backToHome = () => {
+    this.setState({
+      home: true
+    })
+  }
   
   render() {
     return (
     <div className="App">
-      {this.state.home 
-      ? <h1>Welcome to Storm Chaser</h1>
-        <ZipCode sendZipcode={this.sendZipcode}/>
-      : <h2>Storm Chaser</h2>
-        <CurrentWeather weather={this.state.weather}/>
-      }
+        <Welcome home={this.state.home} />
+        <ZipCode sendZipcode={this.sendZipcode} home={this.state.home}/>
+        <CurrentWeather 
+          weather={this.state.weather} 
+          home={this.state.home}
+          backToHome={this.backToHome}
+        />
     </div>
     )
   }

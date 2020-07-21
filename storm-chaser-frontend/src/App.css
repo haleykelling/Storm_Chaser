@@ -16,6 +16,17 @@ h1{
   text-shadow: 2px 2px 10px hsl(196, 33%, 24%);
 }
 
+.show-page-title {
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  text-shadow: 2px 2px 10px hsl(196, 33%, 24%);
+}
+
 .enter-zipcode{
   display: flex;
   flex-direction: column;
@@ -56,4 +67,58 @@ h1{
   border: none;
   border-radius: 1rem;
   width: 100px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  height: 300px;
+  width: 350px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  background-color: hsl(196, 33%, 90%, 0.7);
+  border-radius: 0.5rem;
+  width: 75%;
+  height: 70%;
+  line-height: 2;
+}
+
+.city {
+  align-items: center;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.main-weather {
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+strong{
+  font-weight: 700;
+}
+
+.weather-info button {
+  font-size: 20px;
+  text-align: center;
+  padding: 0.8rem;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: hsl(196, 33%, 30%);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  width: 150px;
 }
